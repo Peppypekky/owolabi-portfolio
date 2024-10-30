@@ -449,3 +449,21 @@ body{
     border: blue 2px solid;
     
 }
+
+
+@media screen and (max-width: 768px) {
+    .header .container{
+        flex-direction: column;
+        align-items: center;
+        padding-top: 20px;
+        justify-content: center;
+    }
+
+    .header .container div{
+        text-align: center;
+    }
+    
+    .boxes .container{
+        display: block;
+    }
+}
